@@ -1,0 +1,17 @@
+name:                staticth
+version:             0.0.0.1
+build-type:          Simple
+cabal-version:       >=1.10
+
+Library
+  exposed-modules:    StaticTH
+  build-depends:      base
+  hs-source-dirs:     src/main/haskell
+  default-language:   Haskell2010
+
+Executable staticth
+  main-is:            src/main/haskell/Main.hs
+  default-language:   Haskell2010
+  build-depends:      base,
+                      raw-strings-qq,
+                      staticth
