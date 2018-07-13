@@ -5,6 +5,6 @@ module Main where
 import Text.RawString.QQ (r)
 
 main :: IO ()
-main = pure
+main = pure ()
 
 tmp = [r|lskdjfhgsldfgh|]
