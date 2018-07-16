@@ -4,7 +4,9 @@ module Main where
 
 import Text.RawString.QQ (r)
 
-main :: IO ()
-main = pure ()
+import StaticTH (dummy)
+
+main :: IO Int
+main = pure dummy
 
 tmp = [r|lskdjfhgsldfgh|]
